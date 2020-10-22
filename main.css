@@ -22,9 +22,21 @@
   background-color: #dde1e7;
 }
 .sub-menu li {
-  display: block;
   width: 100%;
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+}
+
+/* HIDDEN Sub Menu */
+.hidden {
+  height: 0;
+  overflow: hidden;
+  transition: all 1s ease-out;
+}
+
+/* SHOW Sub Menu */
+.show {
+   height: 11.6rem;
+   transition: all 1s ease-in;
 }
